@@ -1,9 +1,8 @@
-class User{
-    constructor(name, age){
-        this.name = name;
-        this.age = age;
-    }
-}
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Test from './App'
 
-let user = new User('Renuka', 23);
-console.log(user);
+ReactDOM.render(
+    <App/>,
+    document.getElementById('react-root')
+);
